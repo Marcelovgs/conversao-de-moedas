@@ -1,10 +1,10 @@
-package main;  // Certifique-se de que a classe Main está no pacote correto
+package main; 
 
 public class Main {
     public static void main(String[] args) {
         // Teste da conversão
         main.CurrencyConverter converter = new main.CurrencyConverter();
-        double amountInUSD = 100.0;  // Exemplo: 100 dólares
+        double amountInUSD = 100.0;  // Exemplo: 100 Reais
         String fromCurrency = "BRL";
         String toCurrency = "USD";
 
